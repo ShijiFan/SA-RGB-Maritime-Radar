@@ -1,0 +1,27 @@
+# Paper3 RadarGrid-Lite: simplified SAFR detector with retained radar-grid context.
+# Rationale: the SA-RGB representation removes the need for a YOLO-style
+# multi-scale FPN/PAN, but strict box localization may still need the compact
+# backbone context. This variant keeps the SAFR backbone and prunes the
+# detection head to test where simplification can be made safely.
+nc: 1
+ch: 3
+
+scales:
+  n: [0.33, 0.25, 1024]
+
+backbone:
+  - [-1, 1, SlotAnchorReadoutBlock, [64, 3, 2]]
+  - [-1, 1, Conv, [128, 3, 2]]
+  - [-1, 2, C3k2, [128, False, 0.25]]
+  - [-1, 1, Conv, [128, 1, 1]]
+  - [-1, 1, Conv, [256, 3, 2]]
+  - [-1, 2, C3k2, [256, False, 0.25]]
+  - [-1, 1, Conv, [256, 1, 1]]
+  - [-1, 1, Conv, [512, 3, 2]]
+  - [-1, 2, C3k2, [512, True]]
+  - [-1, 1, Conv, [512, 1, 1]]
+  - [-1, 1, SPPF, [512, 5]]
+
+head:
+  - [-1, 1, Conv, [128, 1, 1]]
+  - [[11], 1, Detect, [nc]]

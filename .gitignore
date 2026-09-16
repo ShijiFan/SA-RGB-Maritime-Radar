@@ -1,0 +1,31 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# PyTorch / Ultralytics
+*.pt
+*.pth
+runs/
+.ultralytics/
+*.cache
+labels.cache
+
+# Data & raw files
+data/raw_ipix*/
+*.mat
+*.tmp
+*.zip
+*.tar.gz
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
