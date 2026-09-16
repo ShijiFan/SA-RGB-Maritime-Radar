@@ -1,0 +1,5 @@
+Model,Input Representation,Top-1 Acc (%),Val-Calibrated Tau,Calibrated Pd (%),Clutter FA Rate (%),Mean Target Conf,Mean Clutter Conf,Confidence Margin
+98D Logistic Regression,98D Flat Vector,98.25,0.6823,96.78,43.71,0.9765,0.6576,0.3189
+Shared Linear Classifier (7D),7D Shared Cell,64.47,0.2654,63.30,85.53,0.6743,0.4431,0.2312
+Shared MLP Classifier (7D-32),7D Shared Cell,79.39,0.4560,78.22,64.62,0.8304,0.5748,0.2556
+SA-RGB Detector (RadarGrid-Lite),SA-RGB Grid (2x7x3),99.08,0.2500,98.83,0.88,0.9412,0.0143,0.9269

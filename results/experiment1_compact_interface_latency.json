@@ -1,0 +1,29 @@
+{
+  "device": "NVIDIA GeForce RTX 5080",
+  "precision": "FP32",
+  "batch_size": 1,
+  "input_resolution": "200x700",
+  "iterations": 500,
+  "SA-RGB_Lite": {
+    "channels": 3,
+    "params": 327841,
+    "stem_params": 3848,
+    "downstream_params": 323993,
+    "mean_ms": 2.5852560051716864,
+    "std_ms": 0.27385601605661464,
+    "median_ms": 2.466050034854561,
+    "p95_ms": 3.1222100253216922,
+    "fps": 386.8088877850185
+  },
+  "Direct_G7_Lite": {
+    "channels": 7,
+    "params": 325033,
+    "stem_params": 1040,
+    "downstream_params": 323993,
+    "mean_ms": 2.3594162012450397,
+    "std_ms": 0.37676868124500223,
+    "median_ms": 2.2177500068210065,
+    "p95_ms": 2.9629050870426,
+    "fps": 423.8336582889913
+  }
+}

@@ -1,0 +1,46 @@
+[
+  {
+    "Model": "98D Logistic Regression",
+    "Input Representation": "98D Flat Vector",
+    "Top-1 Acc (%)": "98.25",
+    "Val-Calibrated Tau": "0.6823",
+    "Calibrated Pd (%)": "96.78",
+    "Clutter FA Rate (%)": "43.71",
+    "Mean Target Conf": "0.9765",
+    "Mean Clutter Conf": "0.6576",
+    "Confidence Margin": "0.3189"
+  },
+  {
+    "Model": "Shared Linear Classifier (7D)",
+    "Input Representation": "7D Shared Cell",
+    "Top-1 Acc (%)": "64.47",
+    "Val-Calibrated Tau": "0.2654",
+    "Calibrated Pd (%)": "63.30",
+    "Clutter FA Rate (%)": "85.53",
+    "Mean Target Conf": "0.6743",
+    "Mean Clutter Conf": "0.4431",
+    "Confidence Margin": "0.2312"
+  },
+  {
+    "Model": "Shared MLP Classifier (7D-32)",
+    "Input Representation": "7D Shared Cell",
+    "Top-1 Acc (%)": "79.39",
+    "Val-Calibrated Tau": "0.4560",
+    "Calibrated Pd (%)": "78.22",
+    "Clutter FA Rate (%)": "64.62",
+    "Mean Target Conf": "0.8304",
+    "Mean Clutter Conf": "0.5748",
+    "Confidence Margin": "0.2556"
+  },
+  {
+    "Model": "SA-RGB Detector (RadarGrid-Lite)",
+    "Input Representation": "SA-RGB Grid (2x7x3)",
+    "Top-1 Acc (%)": "99.08",
+    "Val-Calibrated Tau": "0.2500",
+    "Calibrated Pd (%)": "98.83",
+    "Clutter FA Rate (%)": "0.88",
+    "Mean Target Conf": "0.9412",
+    "Mean Clutter Conf": "0.0143",
+    "Confidence Margin": "0.9269"
+  }
+]
