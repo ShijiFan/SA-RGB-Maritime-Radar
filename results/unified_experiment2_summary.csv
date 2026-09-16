@@ -1,0 +1,21 @@
+Validation_FA_Cap,Model,Test_Pd_Mean(%),Test_Pd_Std(%),Test_FA_Mean(%),Test_FA_Std(%),Mean_Threshold
+10.0%,98D Logistic Regression,92.69,0.00,12.57,0.00,0.9266
+10.0%,Shared Linear Classifier (7D),43.03,0.07,12.38,0.30,0.6159
+10.0%,Shared MLP Classifier (7D-32),53.80,5.83,12.28,0.55,0.8737
+10.0%,SA-RGB Detector,90.25,5.75,11.50,3.11,0.7867
+5.0%,98D Logistic Regression,89.91,0.00,5.85,0.00,0.9532
+5.0%,Shared Linear Classifier (7D),36.79,0.07,6.09,0.07,0.7162
+5.0%,Shared MLP Classifier (7D-32),47.42,4.98,6.97,0.90,0.9253
+5.0%,SA-RGB Detector,84.94,8.36,6.43,2.40,0.8767
+2.0%,98D Logistic Regression,85.53,0.00,1.75,0.00,0.9789
+2.0%,Shared Linear Classifier (7D),31.68,0.18,2.14,0.07,0.7851
+2.0%,Shared MLP Classifier (7D-32),39.81,4.38,3.90,0.07,0.9602
+2.0%,SA-RGB Detector,74.27,4.08,2.44,1.38,0.9133
+1.0%,98D Logistic Regression,81.14,0.00,1.02,0.00,0.9867
+1.0%,Shared Linear Classifier (7D),23.73,0.28,0.78,0.07,0.8772
+1.0%,Shared MLP Classifier (7D-32),36.26,4.03,2.88,0.07,0.9712
+1.0%,SA-RGB Detector,66.42,7.00,1.07,0.48,0.9333
+0.5%,98D Logistic Regression,76.90,0.00,0.73,0.00,0.9904
+0.5%,Shared Linear Classifier (7D),20.91,0.52,0.39,0.07,0.9276
+0.5%,Shared MLP Classifier (7D-32),32.50,2.52,2.05,0.32,0.9813
+0.5%,SA-RGB Detector,50.19,14.05,0.54,0.48,0.9400
