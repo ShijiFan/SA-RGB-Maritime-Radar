@@ -1,0 +1,84 @@
+{
+ "feature_order": [
+  "Hurst",
+  "RAA",
+  "RDPH",
+  "RVE",
+  "RI",
+  "NR",
+  "MS"
+ ],
+ "params": {
+  "window": 512,
+  "sample_rate": 1000,
+  "tf_nperseg": 64,
+  "tf_noverlap": 48,
+  "tf_nfft": 128,
+  "tf_threshold": 2.0
+ },
+ "records": [
+  {
+   "rec": 1,
+   "stem": "19980204_202225",
+   "file": "E:\\\u6570\u636e\\IPIX\\1998\\19980204_202225.mat",
+   "cells": 28,
+   "target_cell": 24
+  },
+  {
+   "rec": 2,
+   "stem": "19980204_202525",
+   "file": "E:\\\u6570\u636e\\IPIX\\1998\\19980204_202525_ANTSTEP.mat",
+   "cells": 28,
+   "target_cell": 7
+  },
+  {
+   "rec": 3,
+   "stem": "19980204_163113",
+   "file": "E:\\\u6570\u636e\\IPIX\\1998\\19980204_163113.mat",
+   "cells": 28,
+   "target_cell": 24
+  },
+  {
+   "rec": 4,
+   "stem": "19980205_171437",
+   "file": "E:\\\u6570\u636e\\IPIX\\1998\\19980205_171437.mat",
+   "cells": 28,
+   "target_cell": 7
+  },
+  {
+   "rec": 5,
+   "stem": "19980205_180558",
+   "file": "E:\\\u6570\u636e\\IPIX\\1998\\19980205_180558.mat",
+   "cells": 28,
+   "target_cell": 7
+  },
+  {
+   "rec": 6,
+   "stem": "19980212_195704",
+   "file": "E:\\\u6570\u636e\\IPIX\\1998\\19980212_195704.mat",
+   "cells": 28,
+   "target_cell": 7
+  },
+  {
+   "rec": 7,
+   "stem": "19980223_164055",
+   "file": "E:\\\u6570\u636e\\IPIX\\1998\\19980223_164055.mat",
+   "cells": 34,
+   "target_cell": 31
+  },
+  {
+   "rec": 8,
+   "stem": "19980223_173317",
+   "file": "E:\\\u6570\u636e\\IPIX\\1998\\19980223_173317.mat",
+   "cells": 34,
+   "target_cell": 32
+  },
+  {
+   "rec": 9,
+   "stem": "19980223_173950",
+   "file": "E:\\\u6570\u636e\\IPIX\\1998\\19980223_173950.mat",
+   "cells": 34,
+   "target_cell": 29
+  }
+ ]
+}

@@ -1,0 +1,425 @@
+{
+  "dataset": "IPIX1993",
+  "protocol": "E3_raw_reextraction_duration_sweep",
+  "duration_s": 0.512,
+  "sample_rate_hz": 1000,
+  "window_pulses": 512,
+  "feature_order": [
+    "Hurst",
+    "RAA",
+    "RDPH",
+    "RVE",
+    "RI",
+    "NR",
+    "MS"
+  ],
+  "feature_extraction": {
+    "tf_nperseg": 64,
+    "tf_noverlap": 48,
+    "tf_nfft": 128,
+    "tf_threshold": 2.0
+  },
+  "cache": "E:\\multipletrifeatures\\shengao\\paper3_jstars_rev3\\rev3\\cache_e3\\raw_features_0p512.npz",
+  "records": [
+    {
+      "group": 1,
+      "polarization": "HH",
+      "raw_file": "E:\\\u6570\u636e\\IPIX\\1993\\19931107_135603_starea17.mat",
+      "raw_sha256": "8a383adbfd9183a438796b532e6fc60363724f893dcd91c9d0d3efbb3e063e03",
+      "target_cell": 9,
+      "cells": 14,
+      "pulses": 131072,
+      "segments": 256
+    },
+    {
+      "group": 1,
+      "polarization": "HV",
+      "raw_file": "E:\\\u6570\u636e\\IPIX\\1993\\19931107_135603_starea17.mat",
+      "raw_sha256": "8a383adbfd9183a438796b532e6fc60363724f893dcd91c9d0d3efbb3e063e03",
+      "target_cell": 9,
+      "cells": 14,
+      "pulses": 131072,
+      "segments": 256
+    },
+    {
+      "group": 1,
+      "polarization": "VH",
+      "raw_file": "E:\\\u6570\u636e\\IPIX\\1993\\19931107_135603_starea17.mat",
+      "raw_sha256": "8a383adbfd9183a438796b532e6fc60363724f893dcd91c9d0d3efbb3e063e03",
+      "target_cell": 9,
+      "cells": 14,
+      "pulses": 131072,
+      "segments": 256
+    },
+    {
+      "group": 1,
+      "polarization": "VV",
+      "raw_file": "E:\\\u6570\u636e\\IPIX\\1993\\19931107_135603_starea17.mat",
+      "raw_sha256": "8a383adbfd9183a438796b532e6fc60363724f893dcd91c9d0d3efbb3e063e03",
+      "target_cell": 9,
+      "cells": 14,
+      "pulses": 131072,
+      "segments": 256
+    },
+    {
+      "group": 2,
+      "polarization": "HH",
+      "raw_file": "E:\\\u6570\u636e\\IPIX\\1993\\19931108_220902_starea26.mat",
+      "raw_sha256": "d6ddb14af6b8f7111973f27ff2f2956173693e1b9582375467f41c975aaed358",
+      "target_cell": 7,
+      "cells": 14,
+      "pulses": 131072,
+      "segments": 256
+    },
+    {
+      "group": 2,
+      "polarization": "HV",
+      "raw_file": "E:\\\u6570\u636e\\IPIX\\1993\\19931108_220902_starea26.mat",
+      "raw_sha256": "d6ddb14af6b8f7111973f27ff2f2956173693e1b9582375467f41c975aaed358",
+      "target_cell": 7,
+      "cells": 14,
+      "pulses": 131072,
+      "segments": 256
+    },
+    {
+      "group": 2,
+      "polarization": "VH",
+      "raw_file": "E:\\\u6570\u636e\\IPIX\\1993\\19931108_220902_starea26.mat",
+      "raw_sha256": "d6ddb14af6b8f7111973f27ff2f2956173693e1b9582375467f41c975aaed358",
+      "target_cell": 7,
+      "cells": 14,
+      "pulses": 131072,
+      "segments": 256
+    },
+    {
+      "group": 2,
+      "polarization": "VV",
+      "raw_file": "E:\\\u6570\u636e\\IPIX\\1993\\19931108_220902_starea26.mat",
+      "raw_sha256": "d6ddb14af6b8f7111973f27ff2f2956173693e1b9582375467f41c975aaed358",
+      "target_cell": 7,
+      "cells": 14,
+      "pulses": 131072,
+      "segments": 256
+    },
+    {
+      "group": 3,
+      "polarization": "HH",
+      "raw_file": "E:\\\u6570\u636e\\IPIX\\1993\\19931109_191449_starea30.mat",
+      "raw_sha256": "4092df6ee9476d8dcc7c8f0e7709fd6f6d4ab257b6926673978452cc88a374d7",
+      "target_cell": 7,
+      "cells": 14,
+      "pulses": 131072,
+      "segments": 256
+    },
+    {
+      "group": 3,
+      "polarization": "HV",
+      "raw_file": "E:\\\u6570\u636e\\IPIX\\1993\\19931109_191449_starea30.mat",
+      "raw_sha256": "4092df6ee9476d8dcc7c8f0e7709fd6f6d4ab257b6926673978452cc88a374d7",
+      "target_cell": 7,
+      "cells": 14,
+      "pulses": 131072,
+      "segments": 256
+    },
+    {
+      "group": 3,
+      "polarization": "VH",
+      "raw_file": "E:\\\u6570\u636e\\IPIX\\1993\\19931109_191449_starea30.mat",
+      "raw_sha256": "4092df6ee9476d8dcc7c8f0e7709fd6f6d4ab257b6926673978452cc88a374d7",
+      "target_cell": 7,
+      "cells": 14,
+      "pulses": 131072,
+      "segments": 256
+    },
+    {
+      "group": 3,
+      "polarization": "VV",
+      "raw_file": "E:\\\u6570\u636e\\IPIX\\1993\\19931109_191449_starea30.mat",
+      "raw_sha256": "4092df6ee9476d8dcc7c8f0e7709fd6f6d4ab257b6926673978452cc88a374d7",
+      "target_cell": 7,
+      "cells": 14,
+      "pulses": 131072,
+      "segments": 256
+    },
+    {
+      "group": 4,
+      "polarization": "HH",
+      "raw_file": "E:\\\u6570\u636e\\IPIX\\1993\\19931109_202217_starea31.mat",
+      "raw_sha256": "70fa93acb44afc61fc5847ec2e92ad2594fd17fb331772f647d33cef8a5b5d9d",
+      "target_cell": 7,
+      "cells": 14,
+      "pulses": 131072,
+      "segments": 256
+    },
+    {
+      "group": 4,
+      "polarization": "HV",
+      "raw_file": "E:\\\u6570\u636e\\IPIX\\1993\\19931109_202217_starea31.mat",
+      "raw_sha256": "70fa93acb44afc61fc5847ec2e92ad2594fd17fb331772f647d33cef8a5b5d9d",
+      "target_cell": 7,
+      "cells": 14,
+      "pulses": 131072,
+      "segments": 256
+    },
+    {
+      "group": 4,
+      "polarization": "VH",
+      "raw_file": "E:\\\u6570\u636e\\IPIX\\1993\\19931109_202217_starea31.mat",
+      "raw_sha256": "70fa93acb44afc61fc5847ec2e92ad2594fd17fb331772f647d33cef8a5b5d9d",
+      "target_cell": 7,
+      "cells": 14,
+      "pulses": 131072,
+      "segments": 256
+    },
+    {
+      "group": 4,
+      "polarization": "VV",
+      "raw_file": "E:\\\u6570\u636e\\IPIX\\1993\\19931109_202217_starea31.mat",
+      "raw_sha256": "70fa93acb44afc61fc5847ec2e92ad2594fd17fb331772f647d33cef8a5b5d9d",
+      "target_cell": 7,
+      "cells": 14,
+      "pulses": 131072,
+      "segments": 256
+    },
+    {
+      "group": 5,
+      "polarization": "HH",
+      "raw_file": "E:\\\u6570\u636e\\IPIX\\1993\\19931110_001635_starea40.mat",
+      "raw_sha256": "98b92738ed5c45d11d2eab597bbc6798522e6b02dae334778717dc69115d61c7",
+      "target_cell": 7,
+      "cells": 14,
+      "pulses": 131072,
+      "segments": 256
+    },
+    {
+      "group": 5,
+      "polarization": "HV",
+      "raw_file": "E:\\\u6570\u636e\\IPIX\\1993\\19931110_001635_starea40.mat",
+      "raw_sha256": "98b92738ed5c45d11d2eab597bbc6798522e6b02dae334778717dc69115d61c7",
+      "target_cell": 7,
+      "cells": 14,
+      "pulses": 131072,
+      "segments": 256
+    },
+    {
+      "group": 5,
+      "polarization": "VH",
+      "raw_file": "E:\\\u6570\u636e\\IPIX\\1993\\19931110_001635_starea40.mat",
+      "raw_sha256": "98b92738ed5c45d11d2eab597bbc6798522e6b02dae334778717dc69115d61c7",
+      "target_cell": 7,
+      "cells": 14,
+      "pulses": 131072,
+      "segments": 256
+    },
+    {
+      "group": 5,
+      "polarization": "VV",
+      "raw_file": "E:\\\u6570\u636e\\IPIX\\1993\\19931110_001635_starea40.mat",
+      "raw_sha256": "98b92738ed5c45d11d2eab597bbc6798522e6b02dae334778717dc69115d61c7",
+      "target_cell": 7,
+      "cells": 14,
+      "pulses": 131072,
+      "segments": 256
+    },
+    {
+      "group": 6,
+      "polarization": "HH",
+      "raw_file": "E:\\\u6570\u636e\\IPIX\\1993\\19931111_163625_starea54.mat",
+      "raw_sha256": "dc8f2eee00091a3a534889235bca505bc3689afccfc0dfdfc8441116d909b747",
+      "target_cell": 8,
+      "cells": 14,
+      "pulses": 131072,
+      "segments": 256
+    },
+    {
+      "group": 6,
+      "polarization": "HV",
+      "raw_file": "E:\\\u6570\u636e\\IPIX\\1993\\19931111_163625_starea54.mat",
+      "raw_sha256": "dc8f2eee00091a3a534889235bca505bc3689afccfc0dfdfc8441116d909b747",
+      "target_cell": 8,
+      "cells": 14,
+      "pulses": 131072,
+      "segments": 256
+    },
+    {
+      "group": 6,
+      "polarization": "VH",
+      "raw_file": "E:\\\u6570\u636e\\IPIX\\1993\\19931111_163625_starea54.mat",
+      "raw_sha256": "dc8f2eee00091a3a534889235bca505bc3689afccfc0dfdfc8441116d909b747",
+      "target_cell": 8,
+      "cells": 14,
+      "pulses": 131072,
+      "segments": 256
+    },
+    {
+      "group": 6,
+      "polarization": "VV",
+      "raw_file": "E:\\\u6570\u636e\\IPIX\\1993\\19931111_163625_starea54.mat",
+      "raw_sha256": "dc8f2eee00091a3a534889235bca505bc3689afccfc0dfdfc8441116d909b747",
+      "target_cell": 8,
+      "cells": 14,
+      "pulses": 131072,
+      "segments": 256
+    },
+    {
+      "group": 7,
+      "polarization": "HH",
+      "raw_file": "E:\\\u6570\u636e\\IPIX\\1993\\19931118_023604_stareC0000280.mat",
+      "raw_sha256": "4a3ff6a9781dfa59e9fb0055ea87d9fcfca68bdd91d181cfd9b1fca6021376bc",
+      "target_cell": 8,
+      "cells": 14,
+      "pulses": 131072,
+      "segments": 256
+    },
+    {
+      "group": 7,
+      "polarization": "HV",
+      "raw_file": "E:\\\u6570\u636e\\IPIX\\1993\\19931118_023604_stareC0000280.mat",
+      "raw_sha256": "4a3ff6a9781dfa59e9fb0055ea87d9fcfca68bdd91d181cfd9b1fca6021376bc",
+      "target_cell": 8,
+      "cells": 14,
+      "pulses": 131072,
+      "segments": 256
+    },
+    {
+      "group": 7,
+      "polarization": "VH",
+      "raw_file": "E:\\\u6570\u636e\\IPIX\\1993\\19931118_023604_stareC0000280.mat",
+      "raw_sha256": "4a3ff6a9781dfa59e9fb0055ea87d9fcfca68bdd91d181cfd9b1fca6021376bc",
+      "target_cell": 8,
+      "cells": 14,
+      "pulses": 131072,
+      "segments": 256
+    },
+    {
+      "group": 7,
+      "polarization": "VV",
+      "raw_file": "E:\\\u6570\u636e\\IPIX\\1993\\19931118_023604_stareC0000280.mat",
+      "raw_sha256": "4a3ff6a9781dfa59e9fb0055ea87d9fcfca68bdd91d181cfd9b1fca6021376bc",
+      "target_cell": 8,
+      "cells": 14,
+      "pulses": 131072,
+      "segments": 256
+    },
+    {
+      "group": 8,
+      "polarization": "HH",
+      "raw_file": "E:\\\u6570\u636e\\IPIX\\1993\\19931118_162155_stareC0000310.mat",
+      "raw_sha256": "3e7fafea8a78ae9946366290e339cad264949bf108a17287eab8b8c8f1a4dd81",
+      "target_cell": 7,
+      "cells": 14,
+      "pulses": 131072,
+      "segments": 256
+    },
+    {
+      "group": 8,
+      "polarization": "HV",
+      "raw_file": "E:\\\u6570\u636e\\IPIX\\1993\\19931118_162155_stareC0000310.mat",
+      "raw_sha256": "3e7fafea8a78ae9946366290e339cad264949bf108a17287eab8b8c8f1a4dd81",
+      "target_cell": 7,
+      "cells": 14,
+      "pulses": 131072,
+      "segments": 256
+    },
+    {
+      "group": 8,
+      "polarization": "VH",
+      "raw_file": "E:\\\u6570\u636e\\IPIX\\1993\\19931118_162155_stareC0000310.mat",
+      "raw_sha256": "3e7fafea8a78ae9946366290e339cad264949bf108a17287eab8b8c8f1a4dd81",
+      "target_cell": 7,
+      "cells": 14,
+      "pulses": 131072,
+      "segments": 256
+    },
+    {
+      "group": 8,
+      "polarization": "VV",
+      "raw_file": "E:\\\u6570\u636e\\IPIX\\1993\\19931118_162155_stareC0000310.mat",
+      "raw_sha256": "3e7fafea8a78ae9946366290e339cad264949bf108a17287eab8b8c8f1a4dd81",
+      "target_cell": 7,
+      "cells": 14,
+      "pulses": 131072,
+      "segments": 256
+    },
+    {
+      "group": 9,
+      "polarization": "HH",
+      "raw_file": "E:\\\u6570\u636e\\IPIX\\1993\\19931118_162658_stareC0000311.mat",
+      "raw_sha256": "82dd73fe0de03db9f95d32188a9c13c18bf3becbbd867160c0087ef2fe6f22fd",
+      "target_cell": 7,
+      "cells": 14,
+      "pulses": 131072,
+      "segments": 256
+    },
+    {
+      "group": 9,
+      "polarization": "HV",
+      "raw_file": "E:\\\u6570\u636e\\IPIX\\1993\\19931118_162658_stareC0000311.mat",
+      "raw_sha256": "82dd73fe0de03db9f95d32188a9c13c18bf3becbbd867160c0087ef2fe6f22fd",
+      "target_cell": 7,
+      "cells": 14,
+      "pulses": 131072,
+      "segments": 256
+    },
+    {
+      "group": 9,
+      "polarization": "VH",
+      "raw_file": "E:\\\u6570\u636e\\IPIX\\1993\\19931118_162658_stareC0000311.mat",
+      "raw_sha256": "82dd73fe0de03db9f95d32188a9c13c18bf3becbbd867160c0087ef2fe6f22fd",
+      "target_cell": 7,
+      "cells": 14,
+      "pulses": 131072,
+      "segments": 256
+    },
+    {
+      "group": 9,
+      "polarization": "VV",
+      "raw_file": "E:\\\u6570\u636e\\IPIX\\1993\\19931118_162658_stareC0000311.mat",
+      "raw_sha256": "82dd73fe0de03db9f95d32188a9c13c18bf3becbbd867160c0087ef2fe6f22fd",
+      "target_cell": 7,
+      "cells": 14,
+      "pulses": 131072,
+      "segments": 256
+    },
+    {
+      "group": 10,
+      "polarization": "HH",
+      "raw_file": "E:\\\u6570\u636e\\IPIX\\1993\\19931118_174259_stareC0000320.mat",
+      "raw_sha256": "cad52c65df6f2ac1f00f8a24a89af02845bcb8628393a0a0a740e94c4c68247b",
+      "target_cell": 7,
+      "cells": 14,
+      "pulses": 131072,
+      "segments": 256
+    },
+    {
+      "group": 10,
+      "polarization": "HV",
+      "raw_file": "E:\\\u6570\u636e\\IPIX\\1993\\19931118_174259_stareC0000320.mat",
+      "raw_sha256": "cad52c65df6f2ac1f00f8a24a89af02845bcb8628393a0a0a740e94c4c68247b",
+      "target_cell": 7,
+      "cells": 14,
+      "pulses": 131072,
+      "segments": 256
+    },
+    {
+      "group": 10,
+      "polarization": "VH",
+      "raw_file": "E:\\\u6570\u636e\\IPIX\\1993\\19931118_174259_stareC0000320.mat",
+      "raw_sha256": "cad52c65df6f2ac1f00f8a24a89af02845bcb8628393a0a0a740e94c4c68247b",
+      "target_cell": 7,
+      "cells": 14,
+      "pulses": 131072,
+      "segments": 256
+    },
+    {
+      "group": 10,
+      "polarization": "VV",
+      "raw_file": "E:\\\u6570\u636e\\IPIX\\1993\\19931118_174259_stareC0000320.mat",
+      "raw_sha256": "cad52c65df6f2ac1f00f8a24a89af02845bcb8628393a0a0a740e94c4c68247b",
+      "target_cell": 7,
+      "cells": 14,
+      "pulses": 131072,
+      "segments": 256
+    }
+  ]
+}

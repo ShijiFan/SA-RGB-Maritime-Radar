@@ -1,0 +1,291 @@
+section,claim,value,in_text,source
+VI-ref,CA-CFAR Pd 1e-2,0.209,True,phaseC/C_reference_baselines.csv
+VI-ref,CA-CFAR Pfa/a 1e-2,1.28,True,phaseC/C_reference_baselines.csv
+VI-ref,CA-CFAR over2 1e-2,2/10,True,phaseC/C_reference_baselines.csv
+VI-ref,CA-CFAR Pd 1e-3,0.028,True,phaseC/C_reference_baselines.csv
+VI-ref,CA-CFAR Pfa/a 1e-3,0.6,True,phaseC/C_reference_baselines.csv
+VI-ref,CA-CFAR over2 1e-3,1/10,True,phaseC/C_reference_baselines.csv
+VI-ref,CA-CFAR logerr,0.352,True,phaseC/C_reference_baselines.csv
+VI-ref,CA-CFAR adj,0.042,True,phaseC/C_reference_baselines.csv
+VI-ref,HGB-G7 Pd 1e-2,0.714,True,phaseC/C_reference_baselines.csv
+VI-ref,HGB-G7 Pfa/a 1e-2,1.23,True,phaseC/C_reference_baselines.csv
+VI-ref,HGB-G7 over2 1e-2,0/10,True,phaseC/C_reference_baselines.csv
+VI-ref,HGB-G7 Pd 1e-3,0.524,True,phaseC/C_reference_baselines.csv
+VI-ref,HGB-G7 Pfa/a 1e-3,1.5,True,phaseC/C_reference_baselines.csv
+VI-ref,HGB-G7 over2 1e-3,3/10,True,phaseC/C_reference_baselines.csv
+VI-ref,HGB-G7 logerr,0.143,True,phaseC/C_reference_baselines.csv
+VI-ref,HGB-G7 adj,0.034,True,phaseC/C_reference_baselines.csv
+VI-ref,HGB-G3 Pd 1e-2,0.579,True,phaseC/C_reference_baselines.csv
+VI-ref,HGB-G3 Pfa/a 1e-2,1.17,True,phaseC/C_reference_baselines.csv
+VI-ref,HGB-G3 over2 1e-2,1/10,True,phaseC/C_reference_baselines.csv
+VI-ref,HGB-G3 Pd 1e-3,0.434,True,phaseC/C_reference_baselines.csv
+VI-ref,HGB-G3 Pfa/a 1e-3,3.2,True,phaseC/C_reference_baselines.csv
+VI-ref,HGB-G3 over2 1e-3,5/10,True,phaseC/C_reference_baselines.csv
+VI-ref,HGB-G3 logerr,0.128,True,phaseC/C_reference_baselines.csv
+VI-ref,HGB-G3 adj,0.022,True,phaseC/C_reference_baselines.csv
+VI-1998eq,RadarGrid-CS G3 Pd at Pfa=1e-2,0.209,True,phaseC/C_reference_baselines.csv
+VI-1998eq,RadarGrid-CS G7 Pd at Pfa=1e-2,0.300,True,phaseC/C_reference_baselines.csv
+VI-nested,frame chosen,10,True,phaseA/out/B_nested_selection.csv
+VI-nested,texp chosen,exponential tail in three folds,True,phaseA/out/B_nested_selection.csv
+VI-nested,cmap chosen,empirical clutter map in seven,True,phaseA/out/B_nested_selection.csv
+VI-nested,frame+rel in all,in all ten outer folds,True,phaseA/out/B_nested_selection.csv
+VI-nested,nested Pd,0.705,True,phaseA/out/B_nested_outer.csv
+VI-nested,nested Pfa/a,1.22\alpha$ on the held-out,True,phaseA/out/B_nested_outer.csv
+VI-nested,nested 1e-3 Pfa/a,5.8\alpha$,True,phaseA/out/B_nested_outer.csv
+VI/Tab2,G7 Pd 1e-2,0.641,True,phaseC/C_loro_long.csv
+VI/Tab2,G7 Pfa/alpha 1e-2,1.39,True,phaseC/C_loro_long.csv
+VI/Tab2,G7 runs>2a,3/30,True,phaseC/C_loro_long.csv
+VI/Tab2,G7 transfer error,0.157,True,phaseC/C_loro_long.csv
+VI/Tab2,G7 adjacent,0.039,True,phaseC/C_loro_long.csv
+VI/Tab2,G7 Pd 1e-3,0.455,True,phaseC/C_loro_long.csv
+VI/Tab2,G7 runs>2a 1e-3,9/30,True,phaseC/C_loro_long.csv
+VI/Tab2,G3 Pd 1e-2,0.549,True,phaseC/C_loro_long.csv
+VI/Tab2,G3 Pfa/alpha 1e-2,1.71,True,phaseC/C_loro_long.csv
+VI/Tab2,G3 runs>2a,4/30,True,phaseC/C_loro_long.csv
+VI/Tab2,G3 transfer error,0.227,True,phaseC/C_loro_long.csv
+VI/Tab2,G3 adjacent,0.049,True,phaseC/C_loro_long.csv
+VI/Tab2,G3 Pd 1e-3,0.419,True,phaseC/C_loro_long.csv
+VI/Tab2,G3 runs>2a 1e-3,20/30,True,phaseC/C_loro_long.csv
+VI/Tab2,G3 p vs G7,0.020,True,phaseC/C_loro_long.csv
+VI/Tab2,D7 Pd 1e-2,0.638,True,phaseC/C_loro_long.csv
+VI/Tab2,D7 Pfa/alpha 1e-2,1.38,True,phaseC/C_loro_long.csv
+VI/Tab2,D7 runs>2a,3/30,True,phaseC/C_loro_long.csv
+VI/Tab2,D7 transfer error,0.164,True,phaseC/C_loro_long.csv
+VI/Tab2,D7 adjacent,0.039,True,phaseC/C_loro_long.csv
+VI/Tab2,D7 Pd 1e-3,0.460,True,phaseC/C_loro_long.csv
+VI/Tab2,D7 runs>2a 1e-3,8/30,True,phaseC/C_loro_long.csv
+VI/Tab2,D7 p vs G7,0.89,True,phaseC/C_loro_long.csv
+VI/Tab2,P7 Pd 1e-2,0.640,True,phaseC/C_loro_long.csv
+VI/Tab2,P7 Pfa/alpha 1e-2,1.31,True,phaseC/C_loro_long.csv
+VI/Tab2,P7 runs>2a,4/30,True,phaseC/C_loro_long.csv
+VI/Tab2,P7 transfer error,0.173,True,phaseC/C_loro_long.csv
+VI/Tab2,P7 adjacent,0.032,True,phaseC/C_loro_long.csv
+VI/Tab2,P7 Pd 1e-3,0.453,True,phaseC/C_loro_long.csv
+VI/Tab2,P7 runs>2a 1e-3,11/30,True,phaseC/C_loro_long.csv
+VI/Tab2,P7 p vs G7,0.85,True,phaseC/C_loro_long.csv
+VI/Tab2,G7-noSCN Pd 1e-2,0.643,True,phaseC/C_loro_long.csv
+VI/Tab2,G7-noSCN Pfa/alpha 1e-2,1.67,True,phaseC/C_loro_long.csv
+VI/Tab2,G7-noSCN runs>2a,5/30,True,phaseC/C_loro_long.csv
+VI/Tab2,G7-noSCN transfer error,0.201,True,phaseC/C_loro_long.csv
+VI/Tab2,G7-noSCN adjacent,0.058,True,phaseC/C_loro_long.csv
+VI/Tab2,G7-noSCN Pd 1e-3,0.451,True,phaseC/C_loro_long.csv
+VI/Tab2,G7-noSCN runs>2a 1e-3,6/30,True,phaseC/C_loro_long.csv
+VI/Tab2,G7-noSCN p vs G7,0.77,True,phaseC/C_loro_long.csv
+VI/Tab2,G7-absC Pd 1e-2,0.645,True,phaseC/C_loro_long.csv
+VI/Tab2,G7-absC Pfa/alpha 1e-2,1.56,True,phaseC/C_loro_long.csv
+VI/Tab2,G7-absC runs>2a,3/30,True,phaseC/C_loro_long.csv
+VI/Tab2,G7-absC transfer error,0.180,True,phaseC/C_loro_long.csv
+VI/Tab2,G7-absC adjacent,0.049,True,phaseC/C_loro_long.csv
+VI/Tab2,G7-absC Pd 1e-3,0.462,True,phaseC/C_loro_long.csv
+VI/Tab2,G7-absC runs>2a 1e-3,8/30,True,phaseC/C_loro_long.csv
+VI/Tab2,G7-absC p vs G7,0.43,True,phaseC/C_loro_long.csv
+VI/Tab2,G7 fixed Pd,0.629,True,phaseC/C_loro_long.csv
+VI/Tab2,G7 fixed runs>2a,7/30,True,phaseC/C_loro_long.csv
+VI,G7 vs G3 wins,in 8 of 10 folds,True,phaseC/C_loro_long.csv
+VI,texp vs fixed logerr p,p=0.049,True,phaseC/C_loro_long.csv
+VI,texp lower in folds,lower in 9 of 10 folds,True,phaseC/C_loro_long.csv
+VI,fold1 G7 Pd,0.525,True,phaseC/C_loro_long.csv
+VI,G7 exact cell,0.707,True,phaseC/C_loro_long.csv
+VI,G3 exact cell,0.623,True,phaseC/C_loro_long.csv
+VI,1998 G7 Pd,0.374,True,phaseC/runs_1998/summary.json
+VI,1998 G3 Pd,0.247,True,phaseC/runs_1998/summary.json
+VI,1998 D7 Pd,0.405,True,phaseC/runs_1998/summary.json
+VI,1998 G7 Pfa/a,2.36,True,phaseC/runs_1998/summary.json
+VI,1998 G3 Pfa/a,1.84,True,phaseC/runs_1998/summary.json
+VI,1998 G7 adj,0.074,True,phaseC/runs_1998/summary.json
+VI,1998 G3 adj,0.043,True,phaseC/runs_1998/summary.json
+VI,1998 G7 Pd 1e-3,0.196,True,phaseC/runs_1998/summary.json
+VI,R8 G7 Pfa/a,3.2,True,phaseC/runs_1998/summary.json
+VI,R6 G7 Pfa/a,3.6,True,phaseC/runs_1998/summary.json
+VI-exp,margin1 LORO Pd,0.677,True,phaseC/explore_context
+VI-exp,margin1 G3 LORO Pd,0.540,True,phaseC/explore_context
+VI-exp,margin1 1998 Pd,0.429,True,phaseC/explore_context
+VI-exp,margin1 G3 1998 Pd,0.261,True,phaseC/explore_context
+VI-exp,margin1 1998 Pfa/a,1.69,True,phaseC/explore_context
+VI-exp,none 1998 Pfa/a,1.44,True,phaseC/explore_context
+VI-exp,none LORO Pd,0.529,True,phaseC/explore_context
+VI-exp,r2 1998 Pd,0.189,True,phaseC/explore_context
+VI-exp,margin1 G7 vs G3 p,p=0.002,True,phaseC/explore_context
+IV,HGB G3 pdor,0.214,True,phaseA/out/A2_per_subset.csv
+IV,HGB G4 pdor,0.376,True,phaseA/out/A2_per_subset.csv
+IV,HGB G5 pdor,0.473,True,phaseA/out/A2_per_subset.csv
+IV,HGB G7 pdor,0.526,True,phaseA/out/A2_per_subset.csv
+IV,HGB G3 pdor 1e-3,0.054,True,phaseA/out/A2_per_subset.csv
+IV,HGB G7 pdor 1e-3,0.287,True,phaseA/out/A2_per_subset.csv
+IV,Hurst drift raw,0.85,True,phaseA/out/A1_summary.csv
+IV,Hurst drift norm,0.04,True,phaseA/out/A1_summary.csv
+V,CFAR update,0.03~ms,True,phaseC/C_latency.json
+VI-shift,grid G7 s=+-1,0.641 to 0.536,True,phaseC/C_shift_sensitivity.csv
+VI-shift,grid G7 pfa s=+-1,1.90\alpha$,True,phaseC/C_shift_sensitivity.csv
+VI-shift,grid G7 fold6,0.001 to 0.54,True,phaseC/C_shift_sensitivity.csv
+VI-shift,margin G7 range,0.669--0.677,True,phaseC/C_shift_margin1.csv
+VI-shift,margin G7 fold6,0.535,True,phaseC/C_shift_margin1.csv
+VI,hull Pd,0.141,True,phaseC/C_classical_hull.csv
+VI,hull Pfa/a,1.78,True,phaseC/C_classical_hull.csv
+VI,hull over2,4/10,True,phaseC/C_classical_hull.csv
+VI,hull logerr,0.574,True,phaseC/C_classical_hull.csv
+VI,hull Pd 1e-3,0.078,True,phaseC/C_classical_hull.csv
+VI,hull over2 1e-3,7/10,True,phaseC/C_classical_hull.csv
+VI,hull 1998 Pd,0.505,True,phaseC/C_classical_hull.csv
+VI,hull infeasible 1e-3,in 7 of 10 folds,True,phaseC/C_classical_hull.csv
+VI/Tab3,G7 background/a,0.92,True,phaseC/C_bg_pfa.csv
+VI/Tab3,G3 background/a,1.12,True,phaseC/C_bg_pfa.csv
+VI/Tab3,D7 background/a,0.93,True,phaseC/C_bg_pfa.csv
+VI/Tab3,P7 background/a,0.97,True,phaseC/C_bg_pfa.csv
+VI/Tab3,G7-noSCN background/a,0.91,True,phaseC/C_bg_pfa.csv
+VI/Tab3,G7-absC background/a,0.95,True,phaseC/C_bg_pfa.csv
+VI/Tab3,G7 fixed background/a,1.01,True,phaseC/C_bg_pfa.csv
+VI-matched,network LORO Pd,0.678,True,phaseC/C_matched_inputs.csv
+VI-matched,network LORO Pfa/a,1.13\alpha$,True,phaseC/C_matched_inputs.csv
+VI-matched,network LORO transfer,0.146,True,phaseC/C_matched_inputs.csv
+VI-matched,network 1998 Pd,0.429,True,phaseC/C_matched_inputs.csv
+VI-matched,network 1998 Pfa/a,1.69\alpha$,True,phaseC/C_matched_inputs.csv
+VI-matched,network 1998 oracle,0.355,True,phaseC/C_matched_inputs.csv
+VI-matched,network LORO Pd 1e-3,0.514,True,phaseC/C_matched_inputs.csv
+VI-matched,HGB LORO Pd,0.701,True,phaseC/C_matched_inputs.csv
+VI-matched,HGB LORO Pfa/a,1.18\alpha$,True,phaseC/C_matched_inputs.csv
+VI-matched,HGB LORO transfer,0.128,True,phaseC/C_matched_inputs.csv
+VI-matched,HGB 1998 Pd,0.425,True,phaseC/C_matched_inputs.csv
+VI-matched,HGB 1998 oracle,0.372,True,phaseC/C_matched_inputs.csv
+VI-matched,HGB LORO Pd 1e-3,0.509,True,phaseC/C_matched_inputs.csv
+VI-matched,HGB higher folds,HGB higher in 4 of 10 folds,True,phaseC/C_matched_inputs.csv
+VI-matched,p,$p=0.77$,True,phaseC/C_matched_inputs.csv
+VI-sens,W32 Pd,0.637,True,phaseC/C_review_R2_W_trim.csv
+VI-sens,W16 Pd,0.632,True,phaseC/C_review_R2_W_trim.csv
+VI-sens,trim2 Pfa/a,1.71\alpha$,True,phaseC/C_review_R2_W_trim.csv
+VI-sens,warm-up,1.31\alpha$ versus $1.41,True,phaseC/C_review_R3_warmup.csv
+VI-sens,tail ratio 0.1,0.88\alpha$,True,phaseC/C_review_R5_tail_calibration.csv
+VI-sens,tail ratio 0.03,1.23\alpha$,True,phaseC/C_review_R5_tail_calibration.csv
+VI-sens,tail ratio 0.001,2.94\alpha$,True,phaseC/C_review_R5_tail_calibration.csv
+VI,1998 G7 macro Pd,0.348,True,phaseC/C_review_checks.json
+VI,1998 G7 macro Pfa/a,at $2.42\alpha$ and G3,True,phaseC/C_review_checks.json
+VI,1998 G3 macro Pd,0.223,True,phaseC/C_review_checks.json
+VI-final,net-G7 K1 LORO Pd,0.685,True,phaseD_temporal/R2_rescored.csv
+VI-final,net-G7 K1 LORO Pfa,1.13 (0/30),True,phaseD_temporal/R2_rescored.csv
+VI-final,net-G7 K1 LORO adj,0.029,True,phaseD_temporal/R2_rescored.csv
+VI-final,net-G7 K1 LORO bg,0.81,True,phaseD_temporal/R2_rescored.csv
+VI-final,net-G7 K1 LORO Pd 1e-3,0.507,True,phaseD_temporal/R2_rescored.csv
+VI-final,net-G7 K1 1e-3,1.88 (14/30),True,phaseD_temporal/R2_rescored.csv
+VI-final,net-G7 K1 1998 Pd,0.411,True,phaseD_temporal/R2_rescored.csv
+VI-final,net-G7 K1 1998 Pfa/a,1.68,True,phaseD_temporal/R2_rescored.csv
+VI-final,net-G7 K1 1998 oracle,0.334,True,phaseD_temporal/R2_rescored.csv
+VI-final,net-G7 K1 1998 Pd 1e-3,0.219,True,phaseD_temporal/R2_rescored.csv
+VI-final,net-G7 K1 1998 Pfa 1e-3,4.92,True,phaseD_temporal/R2_rescored.csv
+VI-final,net-G7 K4 LORO Pd,0.829,True,phaseD_temporal/R2_rescored.csv
+VI-final,net-G7 K4 LORO Pfa,1.08 (0/30),True,phaseD_temporal/R2_rescored.csv
+VI-final,net-G7 K4 LORO adj,0.031,True,phaseD_temporal/R2_rescored.csv
+VI-final,net-G7 K4 LORO bg,0.72,True,phaseD_temporal/R2_rescored.csv
+VI-final,net-G7 K4 LORO Pd 1e-3,0.646,True,phaseD_temporal/R2_rescored.csv
+VI-final,net-G7 K4 1e-3,0.78 (1/30),True,phaseD_temporal/R2_rescored.csv
+VI-final,net-G7 K4 1998 Pd,0.570,True,phaseD_temporal/R2_rescored.csv
+VI-final,net-G7 K4 1998 Pfa/a,1.17,True,phaseD_temporal/R2_rescored.csv
+VI-final,net-G7 K4 1998 oracle,0.562,True,phaseD_temporal/R2_rescored.csv
+VI-final,net-G7 K4 1998 Pd 1e-3,0.341,True,phaseD_temporal/R2_rescored.csv
+VI-final,net-G7 K4 1998 Pfa 1e-3,2.51,True,phaseD_temporal/R2_rescored.csv
+VI-final,net-G3 K1 LORO Pd,0.541,True,phaseD_temporal/R2_rescored.csv
+VI-final,net-G3 K1 LORO Pfa,1.18 (1/30),True,phaseD_temporal/R2_rescored.csv
+VI-final,net-G3 K1 LORO adj,0.020,True,phaseD_temporal/R2_rescored.csv
+VI-final,net-G3 K1 LORO bg,1.04,True,phaseD_temporal/R2_rescored.csv
+VI-final,net-G3 K1 LORO Pd 1e-3,0.408,True,phaseD_temporal/R2_rescored.csv
+VI-final,net-G3 K1 1e-3,3.28 (23/30),True,phaseD_temporal/R2_rescored.csv
+VI-final,net-G3 K1 1998 Pd,0.252,True,phaseD_temporal/R2_rescored.csv
+VI-final,net-G3 K1 1998 Pfa/a,0.88,True,phaseD_temporal/R2_rescored.csv
+VI-final,net-G3 K1 1998 oracle,0.292,True,phaseD_temporal/R2_rescored.csv
+VI-final,net-G3 K1 1998 Pd 1e-3,0.110,True,phaseD_temporal/R2_rescored.csv
+VI-final,net-G3 K1 1998 Pfa 1e-3,2.57,True,phaseD_temporal/R2_rescored.csv
+VI-final,net-G3 K4 LORO Pd,0.787,True,phaseD_temporal/R2_rescored.csv
+VI-final,net-G3 K4 LORO Pfa,1.05 (0/30),True,phaseD_temporal/R2_rescored.csv
+VI-final,net-G3 K4 LORO adj,0.024,True,phaseD_temporal/R2_rescored.csv
+VI-final,net-G3 K4 LORO bg,0.80,True,phaseD_temporal/R2_rescored.csv
+VI-final,net-G3 K4 LORO Pd 1e-3,0.637,True,phaseD_temporal/R2_rescored.csv
+VI-final,net-G3 K4 1e-3,1.80 (13/30),True,phaseD_temporal/R2_rescored.csv
+VI-final,net-G3 K4 1998 Pd,0.438,True,phaseD_temporal/R2_rescored.csv
+VI-final,net-G3 K4 1998 Pfa/a,1.10,True,phaseD_temporal/R2_rescored.csv
+VI-final,net-G3 K4 1998 oracle,0.441,True,phaseD_temporal/R2_rescored.csv
+VI-final,net-G3 K4 1998 Pd 1e-3,0.247,True,phaseD_temporal/R2_rescored.csv
+VI-final,net-G3 K4 1998 Pfa 1e-3,2.91,True,phaseD_temporal/R2_rescored.csv
+VI-final,hgb-G7 K4 LORO Pd,0.824,True,phaseD_temporal/R2_rescored.csv
+VI-final,hgb-G7 K4 LORO Pfa,1.07 (0/10),True,phaseD_temporal/R2_rescored.csv
+VI-final,hgb-G7 K4 LORO adj,0.036,True,phaseD_temporal/R2_rescored.csv
+VI-final,hgb-G7 K4 LORO bg,0.62,True,phaseD_temporal/R2_rescored.csv
+VI-final,hgb-G7 K4 LORO Pd 1e-3,0.642,True,phaseD_temporal/R2_rescored.csv
+VI-final,hgb-G7 K4 1e-3,0.72 (1/10),True,phaseD_temporal/R2_rescored.csv
+VI-final,hgb-G7 K4 1998 Pd,0.513,True,phaseD_temporal/R2_rescored.csv
+VI-final,hgb-G7 K4 1998 Pfa/a,1.21,True,phaseD_temporal/R2_rescored.csv
+VI-final,hgb-G7 K4 1998 oracle,0.498,True,phaseD_temporal/R2_rescored.csv
+VI-final,hgb-G7 K4 1998 Pd 1e-3,0.233,True,phaseD_temporal/R2_rescored.csv
+VI-final,hgb-G7 K4 1998 Pfa 1e-3,2.68,True,phaseD_temporal/R2_rescored.csv
+VI-final,G7 K4 vs K1 p,($p=0.002$),True,phaseD_temporal/R2_rescored.csv
+VI-final,G7 vs G3 K4 folds,G7 higher in 7 of 10 folds,True,phaseD_temporal/R2_rescored.csv
+VI-final,G7 vs G3 K4 p,$p=0.38$,True,phaseD_temporal/R2_rescored.csv
+VI-final,fold 6,reaches 0.798,True,phaseD_temporal/R2_rescored.csv
+VI-final,1998 seeds,1.15\alpha$ and $1.18,True,phaseD_temporal/R2_rescored.csv
+VI-final,record-seed over,5 of the 27 rates exceed,True,phaseD_temporal/R2_1998_record_seed.csv
+VI-final,record-seed max,at most $2.21\alpha$,True,phaseD_temporal/R2_1998_record_seed.csv
+VI-S,single LORO Pd,0.686,True,phaseD_temporal/R2_rescored.csv
+VI-S,single LORO Pfa,1.13,True,phaseD_temporal/R2_rescored.csv
+VI-S,single LORO 1e-3,1.95,True,phaseD_temporal/R2_rescored.csv
+VI-S,single 1998 Pd,0.405,True,phaseD_temporal/R2_rescored.csv
+VI-S,single 1998 Pfa,1.62,True,phaseD_temporal/R2_rescored.csv
+VI-S,single 1998 oracle,0.336,True,phaseD_temporal/R2_rescored.csv
+VI-S,mean4 LORO Pd,0.831,True,phaseD_temporal/R2_rescored.csv
+VI-S,mean4 LORO Pfa,1.18,True,phaseD_temporal/R2_rescored.csv
+VI-S,mean4 LORO 1e-3,1.11,True,phaseD_temporal/R2_rescored.csv
+VI-S,mean4 1998 Pd,0.583,True,phaseD_temporal/R2_rescored.csv
+VI-S,mean4 1998 Pfa,1.48,True,phaseD_temporal/R2_rescored.csv
+VI-S,mean4 1998 oracle,0.529,True,phaseD_temporal/R2_rescored.csv
+VI-S,mean4 1998 1e-3,4.02,True,phaseD_temporal/R2_rescored.csv
+VI-S,mean4 LORO oracle,0.838,True,phaseD_temporal/R2_rescored.csv
+VI-S,mean4 LORO oracle 1e-3,0.727,True,phaseD_temporal/R2_rescored.csv
+VI-S,net LORO Pd,0.832,True,phaseD_temporal/R2_rescored.csv
+VI-S,net LORO Pfa,1.11,True,phaseD_temporal/R2_rescored.csv
+VI-S,net LORO 1e-3,0.82,True,phaseD_temporal/R2_rescored.csv
+VI-S,net 1998 Pd,0.573,True,phaseD_temporal/R2_rescored.csv
+VI-S,net 1998 Pfa,1.24,True,phaseD_temporal/R2_rescored.csv
+VI-S,net 1998 oracle,0.559,True,phaseD_temporal/R2_rescored.csv
+VI-S,net 1998 1e-3,2.74,True,phaseD_temporal/R2_rescored.csv
+VI-S,net LORO oracle,0.837,True,phaseD_temporal/R2_rescored.csv
+VI-S,net LORO oracle 1e-3,0.677,True,phaseD_temporal/R2_rescored.csv
+VI-S,records lower Pfa,lower in seven of the nine records,True,phaseD_temporal/S_1998_records.csv
+VI-F,F T=1.024 d=0.256 Pd,0.765,True,phaseD_temporal/F_fair_dwell.csv
+VI-F,F T=1.024 d=0.256 Pfa,1.11,True,phaseD_temporal/F_fair_dwell.csv
+VI-F,F T=1.024 d=0.256 oracle,0.768,True,phaseD_temporal/F_fair_dwell.csv
+VI-F,F T=1.024 d=0.256 Pd 1e-3,0.586,True,phaseD_temporal/F_fair_dwell.csv
+VI-F,F T=1.024 d=0.256 Pfa 1e-3,0.99,True,phaseD_temporal/F_fair_dwell.csv
+VI-F,F T=1.024 d=0.512 Pd,0.739,True,phaseD_temporal/F_fair_dwell.csv
+VI-F,F T=1.024 d=0.512 Pfa,1.12,True,phaseD_temporal/F_fair_dwell.csv
+VI-F,F T=1.024 d=0.512 oracle,0.738,True,phaseD_temporal/F_fair_dwell.csv
+VI-F,F T=1.024 d=0.512 Pd 1e-3,0.542,True,phaseD_temporal/F_fair_dwell.csv
+VI-F,F T=1.024 d=0.512 Pfa 1e-3,1.27,True,phaseD_temporal/F_fair_dwell.csv
+VI-F,F T=1.024 d=1.024 Pd,0.701,True,phaseD_temporal/F_fair_dwell.csv
+VI-F,F T=1.024 d=1.024 Pfa,1.13,True,phaseD_temporal/F_fair_dwell.csv
+VI-F,F T=1.024 d=1.024 oracle,0.704,True,phaseD_temporal/F_fair_dwell.csv
+VI-F,F T=1.024 d=1.024 Pd 1e-3,0.481,True,phaseD_temporal/F_fair_dwell.csv
+VI-F,F T=1.024 d=1.024 Pfa 1e-3,1.39,True,phaseD_temporal/F_fair_dwell.csv
+VI-F,F T=2.048 d=0.256 Pd,0.832,True,phaseD_temporal/F_fair_dwell.csv
+VI-F,F T=2.048 d=0.256 Pfa,1.13,True,phaseD_temporal/F_fair_dwell.csv
+VI-F,F T=2.048 d=0.256 oracle,0.841,True,phaseD_temporal/F_fair_dwell.csv
+VI-F,F T=2.048 d=0.256 Pd 1e-3,0.661,True,phaseD_temporal/F_fair_dwell.csv
+VI-F,F T=2.048 d=0.256 Pfa 1e-3,0.85,True,phaseD_temporal/F_fair_dwell.csv
+VI-F,F T=2.048 d=0.512 Pd,0.801,True,phaseD_temporal/F_fair_dwell.csv
+VI-F,F T=2.048 d=0.512 Pfa,1.12,True,phaseD_temporal/F_fair_dwell.csv
+VI-F,F T=2.048 d=0.512 oracle,0.813,True,phaseD_temporal/F_fair_dwell.csv
+VI-F,F T=2.048 d=0.512 Pd 1e-3,0.609,True,phaseD_temporal/F_fair_dwell.csv
+VI-F,F T=2.048 d=0.512 Pfa 1e-3,0.85,True,phaseD_temporal/F_fair_dwell.csv
+VI-F,F T=2.048 d=1.024 Pd,0.752,True,phaseD_temporal/F_fair_dwell.csv
+VI-F,F T=2.048 d=1.024 Pfa,1.05,True,phaseD_temporal/F_fair_dwell.csv
+VI-F,F T=2.048 d=1.024 oracle,0.772,True,phaseD_temporal/F_fair_dwell.csv
+VI-F,F T=2.048 d=1.024 Pd 1e-3,0.539,True,phaseD_temporal/F_fair_dwell.csv
+VI-F,F T=2.048 d=1.024 Pfa 1e-3,0.84,True,phaseD_temporal/F_fair_dwell.csv
+VI-F,F p,($p=0.002$),True,phaseD_temporal/F_fair_dwell.csv
+V,final CPU latency,0.23~ms,True,phaseD_temporal/N3_latency.json
+V,final params,"21\,249",True,phaseD_temporal/N3_latency.json
+VI-final,0.256 single,0.654,True,phaseD_temporal/N2_duration.csv
+VI-final,ratio K4 0.1,0.90,True,phaseD_temporal/CHK_M_mechanism.csv
+VI-final,ratio K4 0.03,1.11,True,phaseD_temporal/CHK_M_mechanism.csv
+VI-final,ratio K4 0.01,1.08,True,phaseD_temporal/CHK_M_mechanism.csv
+VI-final,ratio K4 0.003,0.88,True,phaseD_temporal/CHK_M_mechanism.csv
+VI-final,ratio K4 0.001,0.78,True,phaseD_temporal/CHK_M_mechanism.csv
+VI-final,1998 ratio K1 1e-3,from 4.92,True,phaseD_temporal/CHK_M_mechanism.csv
+VI-final,1998 ratio K4 1e-3,to 2.51,True,phaseD_temporal/CHK_M_mechanism.csv
+V,final shift,0.829 $\to$ 0.827,True,phaseD_temporal/N4_shift_final.csv

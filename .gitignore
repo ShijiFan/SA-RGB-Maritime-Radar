@@ -29,3 +29,8 @@ data/raw_ipix*/
 .DS_Store
 Thumbs.db
 *.log
+
+# Audited weights for this versioned research snapshot only.
+!jstars20261011/checkpoints/**/*.pt
+jstars20261011/code/diagnosis/out/
+jstars20261011/code/temporal/final/

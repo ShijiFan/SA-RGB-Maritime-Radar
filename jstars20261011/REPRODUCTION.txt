@@ -1,0 +1,30 @@
+RADARGRID-CS REPRODUCTION
+
+Work in this snapshot directory, not the legacy repository root.
+Install requirements-analysis.txt; run verify_integrity.py and verify_scores.py.
+For one checkpoint-to-score test, install requirements-inference.txt and run
+example_infer.py. Both checks work on CPU and do not train a model.
+
+Original development layout:
+code/diagnosis -> phaseA_20261008
+code/detector -> phaseC
+code/temporal -> phaseD_temporal
+data/raw_features_0p512.* -> rev3/cache_e3/
+data/ipix1998_7feat.* -> phaseA_20261008/out/
+
+Other original scripts may need these paths reconstructed or their constants
+adjusted. Additional duration caches and raw data are not bundled. They are
+included as source code, not as a claim that every script runs unmodified.
+
+Expected output:
+verify_integrity.py: all listed SHA-256 digests and sizes match.
+verify_scores.py: 'verification passed'; checks 180 first-design models and
+252 final-detector operating-point rows. Comparisons use full precision.
+example_infer.py: finite (4, 241, 14) scores, maximum absolute error <= 1e-4,
+and 'inference verification passed'.
+
+Numerical note: G7/D7 Wilcoxon p=0.89 from C_loro_long.csv, versus 0.91 in the
+historical endpoint JSON. A floating-point residue changed exclusion of one
+zero difference. The paper reports 0.89; original logs remain traceable.
+
+Contact: Shiji Fan, shiji.fan@ua.pt.

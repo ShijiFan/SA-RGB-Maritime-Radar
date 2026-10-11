@@ -1,0 +1,14 @@
+PROVENANCE AND RIGHTS
+
+This release contains author-produced software, calculated feature caches,
+model weights, predictions and experimental results. Raw McMaster IPIX radar
+recordings are not included.
+
+The root MIT license governs the authors' software. It does not grant rights
+to underlying third-party radar recordings or override provider conditions.
+No blanket CC or MIT license for those recordings is asserted here. Any
+third-party code notices remain applicable.
+
+This is a companion to a manuscript prepared for submission, not a published
+JSTARS article. Identify the exact snapshot when reporting results.
+Contact for non-code artifact reuse: Shiji Fan, shiji.fan@ua.pt.
